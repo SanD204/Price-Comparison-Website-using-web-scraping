@@ -5,7 +5,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Mark42310@#!",
+    password="sanD@2004",
     database="project_database"
 )
 
@@ -133,8 +133,12 @@ match n:
         class_name_cursor2.execute("SELECT class_name FROM product_info_table WHERE product_id = 'boatairdropes2' ")
         class_name_data2 = class_name_cursor2.fetchone()
         class_name2 = class_name_data2[0]
-        print("boAt Airdopes 121v2 On Ear True Wireless (TWS) 14 Hours Playback IPX7(Water Resistant) Active Noise cancellation -Bluetooth V 5.0 Black")
-        print("Wired or Wireless:Wireless")
+        print("boAt Airdopes 121v2 On Ear True Wireless (TWS)")
+        print("14 Hours Playback")
+        print("IPX7 Water Resistant")
+        print("Active Noise cancellation")
+        print("IPX7 Water Resistant")
+        print("Bluetooth V 5.0 Black")
         print("COLOR: Black")
         print("BIS/ISI License number:R - 41171557")
     case "4":
