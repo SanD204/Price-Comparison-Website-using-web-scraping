@@ -4,6 +4,7 @@ It is a Full Scale Website using Python and mysql as backend scrapping data from
 
 We used BeautifulSoup and requests library of python to scrape data live from sites!!
 
+And we used MySql for database to store links and class name of the price.
 
 Beautiful Soup provides simple methods for navigating, searching, and modifying a parse tree in HTML, XML files. It transforms a complex HTML document into a tree of Python objects. It also automatically converts the document to Unicode, so you don't have to think about encodings.
 
