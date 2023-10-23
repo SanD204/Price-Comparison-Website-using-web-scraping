@@ -150,7 +150,7 @@ response2 = requests.get(url2)
 print("                                                                      ")
 print("*******************************************************************************************************************************************************")
 print("                                                                      ")
-# Check if the request was successful for 1st site
+
 if response1.status_code == 200:
     # Access the content of the website
     content1 = response1.text
@@ -166,7 +166,7 @@ print(f"Price from 1st website: {price1}")
 print("                                                                      ")
 print("*******************************************************************************************************************************************************")
 print("                                                                      ")
-# Check if the request was successful for 2nd site
+
     
 if response2.status_code == 200:
     # Access the content of the website
